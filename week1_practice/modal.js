@@ -1,4 +1,4 @@
-import "./modal.css";
+
 document.addEventListener("DOMContentLoaded", function (){
     //dom 선택
 
@@ -10,7 +10,7 @@ open.addEventListener("click", function () {
     modal.style.display = "flex";
 });
 
-close.onClick = () => {
+close.addEventListener("click", function () {
     modal.style.display = "none";
-};
+});
 });
